@@ -74,18 +74,3 @@ function fetchGitHubInformation(event) {
 }
 
 $(document).ready(fetchGitHubInformation);
-// repos is the object returned from the github Api
-// github returns this object as an array of objects, so we can use the standard array method of .length to check if it is empty
-
-// map is a method that takes an array and returns a new array with the results of calling
-// a provided function on every element in the calling array. map() works like a forEach loop, but returns an array with
-// the results of the function. It does not change the original array.
-
-// <!-- join() method joins the elements of an array into a string, and returns the string. -->
-//                 <!-- join() method takes an optional parameter, which is a separator. If no separator is specified,
-//                   the elements are separated by a comma. -->
-//                 <!-- This also stops us from having to iterate through
-//                   the new array once again to create a string. -->
-//                 <!-- join() method is a very useful method for converting an array into a string. -->
-// when method packs them into arrays since there more than 1 responses. Line 65 and 66
-// Each of the responses is an array with 3 elements: the data returned from the server, the status, and the jqXHR object. Line 67 and 68
